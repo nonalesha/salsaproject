@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Ikon BeautyCam">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FB78B5"/><stop offset="1" stop-color="#FB78B5"/></linearGradient></defs>
+<rect width="128" height="128" rx="31" fill="url(#g)"/><circle cx="26" cy="22" r="49" fill="white" opacity=".07"/>
+<path d="M35 45h11l7-9h23l7 9h11v49H35Z" stroke="white" stroke-width="5" fill="none" stroke-linejoin="round"/><circle cx="65" cy="69" r="17" stroke="white" stroke-width="5" fill="none"/><path d="M91 20v20M81 30h20" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>

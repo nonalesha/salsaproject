@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Ikon WeTV">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22B881"/><stop offset="1" stop-color="#22B881"/></linearGradient></defs>
+<rect width="128" height="128" rx="31" fill="url(#g)"/><circle cx="26" cy="22" r="49" fill="white" opacity=".07"/>
+<path d="M37 28 Q30 25 30 39v50q0 12 12 6l57-26q11-5 0-10z" fill="white"/><path d="m59 49 28 16-28 16z" fill="#21b886"/>
+</svg>

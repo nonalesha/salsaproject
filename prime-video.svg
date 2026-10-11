@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Ikon Prime Video">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1375AD"/><stop offset="1" stop-color="#1375AD"/></linearGradient></defs>
+<rect width="128" height="128" rx="31" fill="url(#g)"/><circle cx="26" cy="22" r="49" fill="white" opacity=".07"/>
+<path d="m48 35 42 29-42 29z" fill="white"/><path d="M32 100q34 13 68-1" fill="none" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>

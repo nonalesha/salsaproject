@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Ikon Gemini">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#746BD1"/><stop offset="1" stop-color="#746BD1"/></linearGradient></defs>
+<rect width="128" height="128" rx="31" fill="url(#g)"/><circle cx="26" cy="22" r="49" fill="white" opacity=".07"/>
+<path d="M65 17C73 50 84 59 110 64 84 71 74 80 65 112 58 79 47 70 19 64 46 57 58 48 65 17Z" fill="#fff"/><circle cx="99" cy="30" r="4" fill="#ecdcff"/>
+</svg>

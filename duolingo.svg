@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Ikon Duolingo">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#70C71C"/><stop offset="1" stop-color="#70C71C"/></linearGradient></defs>
+<rect width="128" height="128" rx="31" fill="url(#g)"/><circle cx="26" cy="22" r="49" fill="white" opacity=".07"/>
+<path d="M38 42Q64 27 90 42v38Q64 102 38 80Z" fill="white"/><ellipse cx="52" cy="57" rx="12" ry="15" fill="#d6f18c"/><ellipse cx="76" cy="57" rx="12" ry="15" fill="#d6f18c"/><circle cx="54" cy="58" r="5" fill="#426d25"/><circle cx="75" cy="58" r="5" fill="#426d25"/><path d="m60 73 8 0-4 9Z" fill="#FFBC49"/>
+</svg>

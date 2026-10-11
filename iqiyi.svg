@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Ikon iQIYI">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6BC52F"/><stop offset="1" stop-color="#6BC52F"/></linearGradient></defs>
+<rect width="128" height="128" rx="31" fill="url(#g)"/><circle cx="26" cy="22" r="49" fill="white" opacity=".07"/>
+<rect x="25" y="36" width="78" height="57" rx="11" stroke="white" stroke-width="5" fill="none"/><text x="64" y="78" font-size="29" fill="white" text-anchor="middle" font-weight="900">iQI</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Ikon IbisPaint">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E66A83"/><stop offset="1" stop-color="#E66A83"/></linearGradient></defs>
+<rect width="128" height="128" rx="31" fill="url(#g)"/><circle cx="26" cy="22" r="49" fill="white" opacity=".07"/>
+<circle cx="64" cy="64" r="31" fill="none" stroke="white" stroke-width="7"/><circle cx="64" cy="64" r="17" fill="none" stroke="#fbe3ed" stroke-width="6"/><path d="M64 22V42M106 64H86M64 106V86M22 64h20" stroke="white" stroke-width="5"/>
+</svg>

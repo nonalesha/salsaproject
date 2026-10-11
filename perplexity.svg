@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Ikon Perplexity">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#248E98"/><stop offset="1" stop-color="#248E98"/></linearGradient></defs>
+<rect width="128" height="128" rx="31" fill="url(#g)"/><circle cx="26" cy="22" r="49" fill="white" opacity=".07"/>
+<path d="M44 92V42l20-17 20 17v50H44M44 44l20 25 20-25M64 69v30" fill="none" stroke="white" stroke-width="5" stroke-linejoin="round"/><circle cx="64" cy="25" r="5" fill="white"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Ikon DazzCam">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C47736"/><stop offset="1" stop-color="#C47736"/></linearGradient></defs>
+<rect width="128" height="128" rx="31" fill="url(#g)"/><circle cx="26" cy="22" r="49" fill="white" opacity=".07"/>
+<rect x="27" y="42" width="74" height="55" rx="13" fill="none" stroke="white" stroke-width="6"/><circle cx="64" cy="69" r="20" fill="none" stroke="white" stroke-width="6"/><circle cx="87" cy="51" r="4" fill="white"/><path d="M40 42V31h24v11" stroke="white" stroke-width="5"/>
+</svg>

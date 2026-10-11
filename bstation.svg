@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Ikon Bstation">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#53B6F3"/><stop offset="1" stop-color="#53B6F3"/></linearGradient></defs>
+<rect width="128" height="128" rx="31" fill="url(#g)"/><circle cx="26" cy="22" r="49" fill="white" opacity=".07"/>
+<rect x="27" y="41" width="74" height="52" rx="11" fill="none" stroke="white" stroke-width="6"/><path d="m48 29 14 10 16-10" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="50" cy="65" r="5" fill="white"/><circle cx="79" cy="65" r="5" fill="white"/><path d="M55 80h20" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>

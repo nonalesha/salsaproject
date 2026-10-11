@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Ikon Disney+">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#253F94"/><stop offset="1" stop-color="#253F94"/></linearGradient></defs>
+<rect width="128" height="128" rx="31" fill="url(#g)"/><circle cx="26" cy="22" r="49" fill="white" opacity=".07"/>
+<path d="M25 81Q64 14 105 77" stroke="white" stroke-width="3" fill="none"/><text x="62" y="81" font-size="36" fill="white" text-anchor="middle" font-family="Georgia" font-style="italic">D</text><path d="M84 87h21m-11-11v21" stroke="white" stroke-width="5" stroke-linecap="round"/>
+</svg>

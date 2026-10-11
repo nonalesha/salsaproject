@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Ikon Netflix">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E50914"/><stop offset="1" stop-color="#E50914"/></linearGradient></defs>
+<rect width="128" height="128" rx="31" fill="url(#g)"/><circle cx="26" cy="22" r="49" fill="white" opacity=".07"/>
+<path d="M37 25v77h15V53L77 102h14V25H76v48L53 25z" fill="#fff"/><path d="M76 25v77h15V25" fill="#fec5c6" opacity=".6"/>
+</svg>

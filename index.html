@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#e4f3c6" />
+  <meta name="description" content="Lime Premium — katalog paket aplikasi premium dengan keranjang dan pemesanan melalui WhatsApp." />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Lime Premium" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Lime Premium — Toko Aplikasi Premium</title>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand" role="button" tabindex="0" id="brandHome" aria-label="Kembali ke beranda">
+        <span class="brand-icon" aria-hidden="true">✦</span>
+        <span id="storeName">lime<span class="brand-light">premium.</span></span>
+      </div>
+      <div class="header-actions">
+        <button class="icon-button" id="installBtn" aria-label="Instal aplikasi" title="Instal aplikasi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5"/><path d="M5 17v3h14v-3"/></svg></button>
+        <button class="icon-button cart-trigger" data-view="cart" aria-label="Keranjang belanja"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.5 13a2 2 0 0 0 2 1.6h9a2 2 0 0 0 2-1.6L22 6H6"/></svg><span class="cart-count" id="cartBadge" hidden>0</span></button>
+      </div>
+    </header>
+
+    <main id="mainContent">
+      <section class="home-panel view active" id="view-home">
+        <div class="hero">
+          <div class="hero-glow one"></div><div class="hero-glow two"></div>
+          <div class="hero-copy">
+            <span class="eyebrow"><span class="dot"></span> YOUR PREMIUM CORNER</span>
+            <h1>Premium apps,<br/><em>happy wallet.</em></h1>
+            <p>Semua aplikasi favorit di satu tempat. Pilih paketmu, lalu pesan dengan mudah.</p>
+            <button class="dark-cta" data-view="catalog">Jelajahi katalog <span aria-hidden="true">↗</span></button>
+          </div>
+          <div class="hero-decor" aria-hidden="true">
+            <div class="float-tile f1">✦</div>
+            <div class="float-tile f2">▶</div>
+            <div class="float-tile f3">♫</div>
+            <div class="float-orbit"></div>
+          </div>
+        </div>
+        <div class="mini-benefits">
+          <div><span class="benefit-icon">✳</span><span><b>36 aplikasi</b><small>Banyak kategori</small></span></div>
+          <div><span class="benefit-icon">◷</span><span><b>Fleksibel</b><small>3 durasi paket</small></span></div>
+          <div><span class="benefit-icon">♡</span><span><b>Praktis</b><small>Pesan via WhatsApp</small></span></div>
+        </div>
+        <div class="section-head"><div><span class="overline">EXPLORE MORE</span><h2>Paling dicari <span class="leaf">✳</span></h2></div><button class="text-link" data-view="catalog">Lihat semua <span>↗</span></button></div>
+        <div id="featuredGrid" class="product-grid"></div>
+        <div class="promo-note"><span class="note-sparkle">✦</span><div><h3>Pilih sesuai kebutuhanmu</h3><p>Harga contoh dapat disesuaikan pemilik toko. Pesanan dikonfirmasi melalui penjual.</p></div></div>
+        <div class="section-head"><div><span class="overline">OUR COLLECTION</span><h2>Temukan favoritmu</h2></div></div>
+        <div id="categoryTiles" class="category-tiles"></div>
+      </section>
+
+      <section class="view catalog-panel" id="view-catalog">
+        <div class="page-heading"><span class="overline">THE PREMIUM LIST</span><h1>Semua aplikasi<span class="accent-period">.</span></h1><p>Paket harian, bulanan, dan tahunan sudah tersedia.</p></div>
+        <label class="search-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg><input id="searchInput" type="search" placeholder="Cari Netflix, Canva, CapCut..." autocomplete="off"/><span class="search-hint">⌕</span></label>
+        <div class="filter-row" id="filterRow" aria-label="Filter kategori"></div>
+        <div class="listing-count"><strong id="resultCount">0 aplikasi</strong><span>Harga mulai dari paket harian</span></div>
+        <div id="catalogGrid" class="product-grid"></div>
+        <div id="noResults" class="empty-state" hidden><span class="empty-emoji">⌕</span><h3>Belum ada yang cocok</h3><p>Coba kata kunci atau kategori lain.</p><button class="outline-cta" id="clearSearch">Tampilkan semua</button></div>
+      </section>
+
+      <section class="view favorites-panel" id="view-favorites">
+        <div class="page-heading"><span class="overline">YOUR LITTLE LIST</span><h1>Favoritmu<span class="accent-period">.</span></h1><p>Simpan aplikasi yang ingin kamu pesan nanti.</p></div>
+        <div id="favoritesGrid" class="product-grid"></div>
+        <div id="emptyFavorites" class="empty-state"><span class="empty-emoji">♡</span><h3>Belum ada favorit</h3><p>Sentuh ikon hati pada aplikasi favoritmu.</p><button class="dark-cta" data-view="catalog">Cari aplikasi ↗</button></div>
+      </section>
+
+      <section class="view cart-panel" id="view-cart">
+        <div class="page-heading"><span class="overline">ALMOST THERE</span><h1>Keranjangmu<span class="accent-period">.</span></h1><p>Periksa pesanan sebelum dikirim ke penjual.</p></div>
+        <div id="cartList" class="cart-list"></div>
+        <div id="emptyCart" class="empty-state"><span class="empty-emoji">◌</span><h3>Keranjang masih kosong</h3><p>Yuk, pilih aplikasi dan paket yang kamu suka.</p><button class="dark-cta" data-view="catalog">Mulai belanja ↗</button></div>
+        <div id="cartSummary" class="cart-summary" hidden><div class="subtotal-row"><span>Subtotal</span><strong id="subtotal">Rp0</strong></div><p>Harga contoh • konfirmasi stok, akun, dan pembayaran langsung dengan penjual.</p><button id="checkoutBtn" class="checkout-button">Lanjut ke pemesanan <span>↗</span></button></div>
+      </section>
+    </main>
+    <footer class="site-footer"><div><span class="footer-logo">✦ limepremium.</span><small>Made for your digital favorites.</small></div><button id="settingsBtn" class="settings-link" type="button">⚙ Pengaturan toko</button></footer>
+    <nav class="bottom-nav" aria-label="Navigasi utama">
+      <button class="nav-item selected" data-view="home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/></svg><span>Beranda</span></button>
+      <button class="nav-item" data-view="catalog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span>Katalog</span></button>
+      <button class="nav-item" data-view="favorites"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M20.8 4.8a5.5 5.5 0 0 0-7.8 0L12 5.9l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.4a5.5 5.5 0 0 0 0-7.8z"/></svg><span>Favorit</span></button>
+      <button class="nav-item" data-view="cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 5h2l2 11h12l2-9H6"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span>Keranjang</span><span class="small-badge" id="navCartBadge" hidden>0</span></button>
+    </nav>
+  </div>
+
+  <dialog id="productDialog" class="sheet-dialog"><div id="productDetail"></div></dialog>
+  <dialog id="checkoutDialog" class="sheet-dialog"><div class="dialog-layout"><div class="modal-topline"><span class="overline">PLACE YOUR ORDER</span><button class="close-button" data-close aria-label="Tutup">×</button></div><h2>Lengkapi pesananmu.</h2><p class="modal-desc">Pesanan dikirim melalui WhatsApp atau disalin untuk penjual. Belum termasuk pembayaran otomatis.</p>
+    <form id="checkoutForm"><label class="form-label">Nama pembeli<input name="buyerName" required maxlength="80" placeholder="Nama kamu" autocomplete="name"/></label><label class="form-label">No. WhatsApp pembeli<input name="buyerPhone" required inputmode="tel" maxlength="24" pattern="[0-9+ ()-]{8,24}" placeholder="08xxxxxxxxxx" autocomplete="tel"/></label><label class="form-label">Catatan (opsional)<textarea name="note" rows="3" maxlength="400" placeholder="Contoh: mau aktivasi sore ini"></textarea></label><div class="mini-total"><span>Total estimasi</span><strong id="checkoutTotal">Rp0</strong></div><button class="checkout-button" type="submit">Buat pesanan <span>↗</span></button></form>
+    <div id="orderResult" class="order-result" hidden><div class="success-symbol">✓</div><h3>Pesanan siap dikirim!</h3><p id="orderHelp"></p><textarea id="orderText" rows="11" readonly></textarea><div class="result-actions"><button type="button" class="outline-cta" id="copyOrderBtn">Salin pesanan</button><a id="waOrderBtn" class="checkout-button" target="_blank" rel="noopener noreferrer" hidden>Kirim via WhatsApp ↗</a></div><button class="text-link center-link" id="finishOrderBtn" type="button">Selesai</button></div>
+  </div></dialog>
+  <dialog id="settingsDialog" class="sheet-dialog"><div class="dialog-layout"><div class="modal-topline"><span class="overline">STORE SETUP</span><button class="close-button" data-close aria-label="Tutup">×</button></div><h2>Pengaturan toko.</h2><p class="modal-desc">Pengaturan ini hanya tersimpan di browser/perangkatmu. Untuk mengubah harga bagi semua pembeli, edit <b>data.js</b> dan unggah ulang aplikasi.</p>
+    <form id="settingsForm"><label class="form-label">Nama toko<input name="storeName" maxlength="38" required /></label><label class="form-label">WhatsApp penjual (format 628xx)<input name="storeWhatsapp" inputmode="numeric" pattern="[0-9]{0,16}" maxlength="16" placeholder="6281234567890" /></label><button type="submit" class="checkout-button">Simpan di perangkat ini ✓</button></form><p class="hint-text">Kosongkan nomor jika belum tersedia. Pesanan masih bisa disalin manual.</p><hr class="soft-rule"/><h3>Harga contoh</h3><p class="hint-text">Harga semua 36 produk ada di <b>data.js</b>, dapat diubah dengan teks editor sebelum situs diunggah.</p>
+  </div></dialog>
+  <dialog id="installDialog" class="sheet-dialog"><div class="dialog-layout"><div class="modal-topline"><span class="overline">ADD TO HOME SCREEN</span><button class="close-button" data-close aria-label="Tutup">×</button></div><h2>Instal Lime Premium.</h2><p class="modal-desc">Buka versi aplikasi yang sudah diunggah ke HTTPS melalui Chrome Android, tekan menu <b>⋮</b> lalu pilih <b>Instal aplikasi</b> atau <b>Tambahkan ke layar utama</b>. Di Samsung Internet pilih menu <b>Tambah halaman ke</b> → <b>Layar depan</b>.</p><button type="button" class="dark-cta" data-close>Oke, mengerti</button></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script defer src="data.js"></script><script defer src="app.js"></script>
+</body>
+</html>

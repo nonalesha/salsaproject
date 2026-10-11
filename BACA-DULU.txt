@@ -1,0 +1,21 @@
+PERBAIKAN LIMESTORE (untuk repository nonalesha/LimeStore)
+
+Kenapa ada perbaikan?
+File-file ikon sudah di-upload di ROOT repo GitHub, tetapi kode masih mengarah ke assets/icons/ dan assets/branding/. Ini menyebabkan ikon tidak ditemukan dan menghalangi PWA saat offline.
+
+Cara memasang patch di GitHub:
+1. Ekstrak ZIP ini sehingga ada 4 file: index.html, app.js, sw.js, manifest.webmanifest.
+2. Login GitHub dan buka https://github.com/nonalesha/LimeStore
+3. Ganti empat file yang bernama sama di ROOT repo dengan versi di ZIP ini (pakai Add file > Upload files jika memungkinkan atau buka masing-masing file, klik Edit lalu salin isi versi baru).
+4. Commit changes. Tunggu GitHub Pages memperbarui halaman (beberapa menit).
+5. Cek https://nonalesha.github.io/LimeStore/ dan pastikan ikon tampil.
+6. Untuk membuat APK kunjungi https://www.pwabuilder.com/ lalu masukkan URL GitHub Pages di atas; Package for Stores > Android > Generate Package. Pilih SIGNED APK.
+
+Mengubah harga dan WhatsApp:
+- Buka data.js yang sudah ada di repo; tidak perlu diganti oleh patch ini.
+- Urutan prices: [harian, bulanan, tahunan] dalam rupiah.
+- Contoh Canva prices:[5000,30000,230000] menjadi prices:[3000,15000,100000].
+- Untuk nomor WA, isi field whatsapp:'6281234567890' tanpa + atau 0 awal.
+- Setelah mengubah data.js, pengguna akan memperoleh data baru saat online dan refresh. Pada browser yang masih memegang cache lama, muat ulang sekali lagi atau hapus cache situs.
+
+Catatan: APK PWA berbasis TWA memerlukan assetlinks.json di ROOT domain https://nonalesha.github.io/.well-known/assetlinks.json untuk tampilan tanpa bilah browser. Karena ini GitHub Pages project site dalam /LimeStore/, pertimbangkan memakai domain sendiri atau membuat repo situs root nonalesha.github.io, atau terima mode dengan bilah browser saat belum terverifikasi.
