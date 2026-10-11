@@ -1,7 +1,7 @@
 // Harga di bawah adalah CONTOH untuk demonstrasi toko, BUKAN harga resmi aplikasi.
 // Ubah sesuai harga dan hak distribusi yang benar sebelum dipublikasikan.
 window.PRODUCTS = [
-  {id:'alight-motion',name:'Alight Motion',category:'Editing',tag:'Video & animasi',prices:[4000,22000,175000],color:'#6CBB8D',symbol:'AM'},
+  {id:'alight-motion',name:'Alight Motion',category:'Editing',tag:'Video & animasi',prices:[5p,150p,1.825],color:'#6CBB8D',symbol:'AM'},
   {id:'amazon-prime',name:'Amazon Prime',category:'Streaming',tag:'Hiburan premium',prices:[5000,28000,290000],color:'#1B91CC',symbol:'a'},
   {id:'beautycam',name:'BeautyCam',category:'Editing',tag:'Kamera & foto',prices:[4000,25000,190000],color:'#FB78B5',symbol:'B'},
   {id:'bstation',name:'Bstation',category:'Streaming',tag:'Anime favorit',prices:[3000,23000,190000],color:'#53B6F3',symbol:'b'},
